@@ -176,7 +176,7 @@ public class TrackedEventProjection: EventProjection
     public TrackedEventProjection()
     {
         throw new NotImplementedException("Redo");
-        // ProjectAsync<Run>(async (run, ops) =>
+        // ProjectAsync<Run>(async (run, ops, cancellationToken) =>
         // {
         //     var game = await ops.LoadAsync<BaseballGame>(run.GameId);
         //
